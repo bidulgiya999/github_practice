@@ -1,0 +1,7 @@
+name: Python Tests
+ 
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:                 # PR이 생성/갱신될 때도 실행
+    branches: [ "main" ]
